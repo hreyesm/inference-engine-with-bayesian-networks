@@ -6,6 +6,15 @@
 
 A generic inference engine using inference by enumeration with Bayesian networks. Implemented in Python using the Pomegranate framework.
 
+## Table of Contents
+* [Overview](#overview)
+* [Installation](#installation)
+  * [Requirements](#requirements)
+* [Usage](#usage)
+  * [Example](#example)
+* [Acknowledgements](#acknowledgements)
+* [Authors](#authors)
+
 ## Overview
 A Bayesian network is a probabilistic model that represents a set of variables and their conditional dependencies through a directed acyclic graph. Given an event, the likelihood that such an event occurred as a result of one or more known causes (also known as beliefs) can be inferred from a Bayesian network. For example, Bayesian networks could represent the probabilistic relationships between diseases and symptoms—given symptoms *S<sub>1</sub>, ..., S<sub>n</sub>*, a model can be used to calculate the probability of the presence of a disease *D* as a query *Q = P(D | S<sub>1</sub>, ..., S<sub>n</sub>)*.
 
@@ -27,8 +36,12 @@ The script was tested in an Anaconda environment running on MacOS.
 
 After cloning the repository, enter the following terminal command to run the Python script:
 ```
-python3 engine.py <Input JSON file>
+python3 engine.py <input JSON file>
 ```
-Note that ``<Input JSON file>`` should be replaced with a JSON file that contains a custom Bayesian network architecture ([see example](###Example)).
+Note that ``<input JSON file>`` should be replaced with a JSON file that contains a custom Bayesian network architecture ([see example](###Example)).
 
 ### Example
+
+## Acknowledgements
+
+## Authors
