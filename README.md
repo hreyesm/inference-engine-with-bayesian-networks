@@ -38,7 +38,7 @@ After cloning the repository, enter the following terminal command to run the Py
 ```
 python3 engine.py <input JSON file>
 ```
-Note that ``<input JSON file>`` should be replaced with a JSON file that contains a custom Bayesian network architecture ([see example](###Example)).
+Note that ``<input JSON file>`` should be replaced with a JSON file that contains a custom Bayesian network architecture ([see example](#example)).
 
 ### Example
 
