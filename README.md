@@ -6,6 +6,9 @@
 
 A generic inference engine using inference by enumeration with Bayesian networks. Implemented in Python using the Pomegranate framework.
 
+### Authors
+[Héctor Reyes](https://github.com/hreyesm), [Daniela Vignau](https://github.com/dvigleo)
+
 ## Table of Contents
 * [Overview](#overview)
 * [Installation](#installation)
@@ -16,12 +19,11 @@ A generic inference engine using inference by enumeration with Bayesian networks
 * [Authors](#authors)
 
 ## Overview
-A Bayesian network is a probabilistic model that represents a set of variables and their conditional dependencies through a directed acyclic graph. Given an event, the likelihood that such an event occurred as a result of one or more known causes (also called beliefs) can be inferred from a Bayesian network. For example, Bayesian networks could represent the probabilistic relationships between diseases and symptoms—given symptoms *S<sub>1</sub>, ..., S<sub>n</sub>*, a model can be used to calculate the probability of the presence of a disease *D* as a query *Q = P(D | S<sub>1</sub>, ..., S<sub>n</sub>)*.
+A Bayesian network is a probabilistic model that represents a set of variables and their conditional dependencies through a directed acyclic graph. Given an event, the likelihood that such an event occurred as a result of one or more known causes can be inferred from a Bayesian network. For example, Bayesian networks could represent the probabilistic relationships between diseases and symptoms: given symptoms *S<sub>1</sub>, ..., S<sub>n</sub>*, a model can be used to calculate the probability of the presence of a disease *D* as a query *Q = P(D | S<sub>1</sub>, ..., S<sub>n</sub>)*.
 
 This project provides a generic inference engine using inference by enumeration with Bayesian networks. It receives a JSON file with the probabilities associated with each node on the network as input, and then writes the probability assigned to the query to an output JSON file.
 
 ## Installation
-
 Install from this repository:
 ```
 git clone https://github.com/hreyesm/inference-engine-with-bayesian-networks
@@ -33,7 +35,6 @@ The script was tested in an Anaconda environment running on MacOS.
 * [Pomegranate](https://github.com/jmschrei/pomegranate)
 
 ## Usage
-
 After cloning the repository, enter the following terminal command to run the Python script:
 ```
 python3 engine.py <input JSON file>
@@ -43,5 +44,3 @@ Please note that ``<input JSON file>`` should be replaced with a JSON file that 
 ### Example
 
 ## Acknowledgements
-
-## Authors
