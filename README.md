@@ -13,14 +13,14 @@ This project provides a generic inference engine using inference by enumeration 
 
 ## Installation
 
-#### Requirements
-* Python (3.7 or above)
-* [Pomegranate](https://github.com/jmschrei/pomegranate)
-
 Install from this repository:
 ```
 git clone https://github.com/hreyesm/inference-engine-with-bayesian-networks
 ```
+### Requirements
+* Python (3.7 or above)
+* [Pomegranate](https://github.com/jmschrei/pomegranate)
+
 Code was tested in an Anaconda environment running on MacOS.
 
 ## Usage
