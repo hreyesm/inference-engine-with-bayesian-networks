@@ -24,4 +24,14 @@ Install from this repository:
 ```
 git clone https://github.com/hreyesm/inference-engine-with-bayesian-networks
 ```
-Tested in an Anaconda environment running on MacOS.
+Code was tested in an Anaconda environment running on MacOS.
+
+## Usage
+
+After cloning the repository, enter the following terminal command to run the Python script:
+```
+python3 engine.py <Input JSON file>
+```
+Note that ``<Input JSON file>`` should be replaced with a JSON file that contains a custom Bayesian network architecture ([see example](./README.md/###Example)).
+
+### Example
