@@ -14,11 +14,8 @@ This project provides a generic inference engine using inference by enumeration 
 ## Installation
 
 #### Requirements
-
-<ul>
-  <li>Python (3.7 or above)</li>
-  <li><a href="https://github.com/jmschrei/pomegranate">Pomegranate</a></li>
-</ul>
+* Python (3.7 or above)
+* [Pomegranate](https://github.com/jmschrei/pomegranate)
 
 Install from this repository:
 ```
@@ -32,6 +29,6 @@ After cloning the repository, enter the following terminal command to run the Py
 ```
 python3 engine.py <Input JSON file>
 ```
-Note that ``<Input JSON file>`` should be replaced with a JSON file that contains a custom Bayesian network architecture ([see example](./README.md/###Example)).
+Note that ``<Input JSON file>`` should be replaced with a JSON file that contains a custom Bayesian network architecture ([see example](###Example)).
 
 ### Example
