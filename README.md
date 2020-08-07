@@ -20,7 +20,7 @@ This project provides a generic inference engine using inference by enumeration 
   <li><a href="https://github.com/jmschrei/pomegranate">Pomegranate</a></li>
 </ul>
 
-Install from this repository by running the following terminal command:
+Install from this repository:
 ```
 git clone https://github.com/hreyesm/inference-engine-with-bayesian-networks
 ```
