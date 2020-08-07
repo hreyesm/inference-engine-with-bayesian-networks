@@ -11,3 +11,18 @@ A Bayesian network is a probabilistic model that represents a set of variables a
 
 This project provides a generic inference engine using inference by enumeration with Bayesian networks. It receives a JSON file with the probabilities associated with each node on the network as input, and then writes the probability assigned to the query to an output JSON file.
 
+## Installation
+
+Code was tested in an Anaconda environment running on MacOS.
+
+#### Requirements
+
+<ul>
+  <li>Python (3.7 or above)</li>
+  <li><a href="https://github.com/jmschrei/pomegranate">Pomegranate</a></li>
+</ul>
+
+Install from this repository by running the following terminal command:
+````
+git clone https://github.com/hreyesm/inference-engine-with-bayesian-networks
+````
