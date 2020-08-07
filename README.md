@@ -13,8 +13,6 @@ This project provides a generic inference engine using inference by enumeration 
 
 ## Installation
 
-Code was tested in an Anaconda environment running on MacOS.
-
 #### Requirements
 
 <ul>
@@ -23,6 +21,7 @@ Code was tested in an Anaconda environment running on MacOS.
 </ul>
 
 Install from this repository by running the following terminal command:
-````
+```
 git clone https://github.com/hreyesm/inference-engine-with-bayesian-networks
-````
+```
+Tested in an Anaconda environment running on MacOS.
