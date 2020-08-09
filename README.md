@@ -6,7 +6,7 @@
 
 A generic inference engine using inference by enumeration with Bayesian networks. Implemented in Python using the Pomegranate framework.
 
-### Authors
+### Contributors
 [Héctor Reyes](https://github.com/hreyesm), [Daniela Vignau](https://github.com/dvigleo)
 
 ## Table of Contents
@@ -15,8 +15,7 @@ A generic inference engine using inference by enumeration with Bayesian networks
   * [Requirements](#requirements)
 * [Usage](#usage)
   * [Example](#example)
-* [Acknowledgements](#acknowledgements)
-* [Authors](#authors)
+* [License](#license)
 
 ## Overview
 A Bayesian network is a probabilistic model that represents a set of variables and their conditional dependencies through a directed acyclic graph. Given an event, the likelihood that such an event occurred as a result of one or more known causes can be inferred from a Bayesian network. For example, Bayesian networks could represent the probabilistic relationships between diseases and symptoms: given symptoms *S<sub>1</sub>, ..., S<sub>n</sub>*, a model can be used to calculate the probability of the presence of a disease *D* as a query *Q = P(D | S<sub>1</sub>, ..., S<sub>n</sub>)*.
@@ -78,8 +77,11 @@ For the above topology, a valid input JSON file would look like the following:
   }
 ]
 ```
-The [example_input.json](https://github.com/hreyesm/inference-engine-with-bayesian-networks/blob/master/example_input.json) file already contains this topology, so when the command `python3 engine.py example_input.json` is run, the probability assigned to the query *Q = P(G|R-S)* will be written to an output JSON file "G|R-S.json" as follows:
+The [example_input.json](./example_input.json) file already contains this topology, so when the command `python3 engine.py example_input.json` is run, the probability assigned to the query *Q = P(G|R-S)* would be written to an output JSON file "G|R-S.json" as follows:
 ```
 {"G": 0.8999999999999999, "-G": 0.10000000000000012}
 ```
 Thus, the probability that the grass is wet (*G*) given that it rained (*R*) and there was no sprinkler (*-S*) is ≈ 90%.
+
+## License
+The code of this repository was implemented by [Héctor Reyes](https://github.com/hreyesm) and [Daniela Vignau](https://github.com/dvigleo). Released under the [MIT license](./LICENSE.md).
