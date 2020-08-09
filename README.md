@@ -42,5 +42,39 @@ python3 engine.py <input JSON file>
 Please note that ``<input JSON file>`` should be replaced with a JSON file that contains a valid Bayesian network topology ([see example](#example)).
 
 ### Example
-Consider the following Bayesian network topology:
+Consider a Bayesian network from which the probability assigned to the query *Q = P(G|R-S)* is to be inferred, that is, the probability that the grass is wet (*G*) given that it rained (*R*) and there was no sprinkler (*-S*):
+
 ![Example input](example_input.png)
+
+For the above topology, a valid input JSON file would look like the following:
+```
+[
+  {
+     "R": 0.2
+  },
+
+  {
+    "S|R": 0.01,
+    "S|-R": 0.4
+  },
+
+  {
+    "G|RS": 0.99,
+    "G|R-S": 0.9,
+    "G|-RS": 0.8,
+    "G|-R-S": 0.0
+  },
+
+  {
+    "BELIEF": "R"
+  },
+
+  {
+    "BELIEF": "-S"
+  },
+
+  {
+    "QUERY": "G"
+  }
+]
+```
