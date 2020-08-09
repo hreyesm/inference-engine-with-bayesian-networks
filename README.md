@@ -78,3 +78,4 @@ For the above topology, a valid input JSON file would look like the following:
   }
 ]
 ```
+The [example_input.json](https://github.com/hreyesm/inference-engine-with-bayesian-networks/example_input.json) file contains this exact topology, so when the command `python3 engine.py example_input.json` is run, the probability assigned to the query *Q = P(G|R-S)* will be written to an output JSON file called "G|R-S.json". 
