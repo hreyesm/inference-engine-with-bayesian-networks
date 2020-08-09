@@ -39,8 +39,8 @@ After cloning the repository, enter the following terminal command to run the Py
 ```
 python3 engine.py <input JSON file>
 ```
-Please note that ``<input JSON file>`` should be replaced with a JSON file that contains a custom Bayesian network architecture ([see example](#example)).
+Please note that ``<input JSON file>`` should be replaced with a JSON file that contains a valid Bayesian network topology ([see example](#example)).
 
 ### Example
-
-## Acknowledgements
+Consider the following Bayesian network topology:
+![Example input](example_input.png)
