@@ -49,7 +49,7 @@ For the above topology, a valid input JSON file would look like the following:
 ```
 [
   {
-     "R": 0.2
+    "R": 0.2
   },
 
   {
