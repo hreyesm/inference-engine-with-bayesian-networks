@@ -59,8 +59,8 @@ For the above topology, a valid input JSON file would look like the following:
 
   {
     "G|RS": 0.99,
-    "G|R-S": 0.9,
-    "G|-RS": 0.8,
+    "G|R-S": 0.8,
+    "G|-RS": 0.9,
     "G|-R-S": 0.0
   },
 
