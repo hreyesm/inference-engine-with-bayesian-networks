@@ -79,9 +79,9 @@ For the above topology, a valid input JSON file would look like the following:
 ```
 The [example_input.json](./example_input.json) file already contains this topology, so when the command `python3 engine.py example_input.json` is run, the probability assigned to the query *Q = P(G|R-S)* would be written to an output JSON file "G|R-S.json" as follows:
 ```
-{"G": 0.8999999999999999, "-G": 0.10000000000000012}
+{"-G": 0.20000000000000007, "G": 0.7999999999999999}
 ```
-Thus, the probability that the grass is wet (*G*) given that it rained (*R*) and there was no sprinkler (*-S*) is ≈ 90%.
+Thus, the probability that the grass is wet (*G*) given that it rained (*R*) and there was no sprinkler (*-S*) is 80%.
 
 ## License
 The code of this repository was implemented by [Héctor Reyes](https://github.com/hreyesm) and [Daniela Vignau](https://github.com/dvigleo). Released under the [MIT license](./LICENSE.md).
