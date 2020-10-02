@@ -1,9 +1,4 @@
 # Inference Engine with Bayesian Networks
-![GitHub repo size](https://img.shields.io/github/repo-size/hreyesm/inference-engine-with-bayesian-networks)
-![GitHub contributors](https://img.shields.io/github/contributors/hreyesm/inference-engine-with-bayesian-networks)
-![GitHub stars](https://img.shields.io/github/stars/hreyesm/inference-engine-with-bayesian-networks?style=social)
-![GitHub forks](https://img.shields.io/github/forks/hreyesm/inference-engine-with-bayesian-networks?style=social)
-
 A generic inference engine using inference by enumeration with Bayesian networks. Implemented in Python using the Pomegranate framework.
 
 ### Contributors
