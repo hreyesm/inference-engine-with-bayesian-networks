@@ -1,5 +1,5 @@
 # Inference Engine with Bayesian Networks
-A generic inference engine using inference by enumeration with Bayesian networks. Implemented in Python using the Pomegranate framework.
+Generic inference engine using inference by enumeration with Bayesian networks. Implemented in Python using the Pomegranate framework.
 
 ### Contributors
 [Héctor Reyes](https://github.com/hreyesm), [Daniela Vignau](https://github.com/dvigleo)
