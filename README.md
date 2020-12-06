@@ -2,7 +2,8 @@
 Generic inference engine using inference by enumeration with Bayesian networks. Implemented in Python using the Pomegranate framework.
 
 ### Authors
-[Héctor Reyes](https://github.com/hreyesm), [Daniela Vignau](https://github.com/dvigleo)
+* [Daniela Vignau](https://github.com/dvigleo)
+* [Héctor Reyes](https://github.com/hreyesm)
 
 ## Table of Contents
 * [Overview](#overview)
